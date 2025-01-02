@@ -1,8 +1,16 @@
-# React + Vite
+This project demonstrates state management using Redux and Redux Toolkit. It includes reducers, actions, and slices to handle state efficiently. The app is set up to handle account management, including deposits, withdrawals, and loan management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+State Management with Redux
 
-Currently, two official plugins are available:
+📝 AccountSlice
+Manages account operations:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deposit: Add balance and update currency.
+Withdrawal: Deduct from balance.
+Request Loan: Apply for a loan with a purpose.
+Pay Loan: Repay the loan.
+📝 CustomerSlice
+Manages customer data:
+
+Create Customer: Add a new customer.
+Update Name: Change the customer's name.
